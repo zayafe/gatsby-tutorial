@@ -1,6 +1,9 @@
+require("dotenv").config({
+  path: `.env`,
+});
+
 module.exports = {
-  siteMetadata: {
-    title: "Gatsby Tutorial",
-  },
-  plugins: ["gatsby-plugin-gatsby-cloud"],
+  plugins: [
+    'gatsby-plugin-postcss',
+  ],
 };

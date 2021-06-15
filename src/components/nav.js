@@ -6,7 +6,7 @@ import logo from "../images/thisisalogo_white.png"
 function Nav() {
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <nav className="bg-gray-800">
+    <nav className="bg-black">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
@@ -23,16 +23,16 @@ function Nav() {
               <div className="ml-10 flex items-baseline space-x-4">
                 <Link
                   to="/blog"
-                  className=" hover:bg-gray-700 text-white px-3 py-2 rounded-md text-sm font-medium"
+                  className=" hover:bg-white hover:text-black text-white px-3 py-2 rounded-md text-sm font-medium"
                 >
                   Blog
                 </Link>
 
                 <Link
-                  to="about"
-                  className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                  to="/about"
+                  className="text-white hover:bg-white hover:text-black px-3 py-2 rounded-md text-sm font-medium"
                 >
-                  Über uns
+                  About us
                 </Link>
               </div>
             </div>
@@ -102,12 +102,11 @@ function Nav() {
               >
                 Blog
               </Link>
-
               <Link
                 to="/about"
                 className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
               >
-                Über uns
+                About us
               </Link>
             </div>
           </div>

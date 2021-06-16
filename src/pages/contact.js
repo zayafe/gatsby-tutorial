@@ -30,7 +30,7 @@ export default class Contact extends React.Component {
             placeholder="Your name"
             value={this.state.userName}
             onChange={this.handleInputChange}
-            className="block m-4 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 relative bg-white bg-white rounded text-sm border-0 shadow outline-none focus:outline-none focus:ring w-11/12"
+            className="block mx-auto m-4 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 relative bg-white bg-white rounded text-sm border-0 shadow outline-none focus:outline-none focus:ring w-11/12"
           />
           <input
             type="mail"
@@ -38,16 +38,16 @@ export default class Contact extends React.Component {
             placeholder="Your mail"
             value={this.state.userName}
             onChange={this.handleInputChange}
-            className="block m-4 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 relative bg-white bg-white rounded text-sm border-0 shadow outline-none focus:outline-none focus:ring w-11/12"
+            className="block mx-auto m-4 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 relative bg-white bg-white rounded text-sm border-0 shadow outline-none focus:outline-none focus:ring w-11/12"
           />
         <textarea 
           placeholder="Your message" 
           name="userMessage"
           value={this.state.userMessage}
           onChange={this.handleInputChange}
-          className="block m-4 px-3 py-3 h-60 resize-none placeholder-blueGray-300 text-blueGray-600 relative bg-white bg-white rounded text-sm border-0 shadow outline-none focus:outline-none focus:ring w-11/12">
+          className="block mx-auto m-4 px-3 py-3 h-60 resize-none placeholder-blueGray-300 text-blueGray-600 relative bg-white bg-white rounded text-sm border-0 shadow outline-none focus:outline-none focus:ring w-11/12">
         </textarea>
-        <button type="submit" className="block m-4 px-8 py-2 mt-6 text-lg font-medium text-center text-white transition-colors duration-300 transform bg-indigo-600 rounded md:mt-0 hover:bg-indigo-500 w-40">Submit</button>
+        <button type="submit" className="block mx-auto m-4 px-8 py-2 mt-6 text-lg font-medium text-center text-white transition-colors duration-300 transform bg-indigo-600 rounded md:mt-0 hover:bg-indigo-500 w-40">Submit</button>
       </form>
       </Layout>
       </>

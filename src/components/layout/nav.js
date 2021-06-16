@@ -28,12 +28,6 @@ function Nav() {
                   Blog
                 </Link>
                 <Link
-                  to="/about"
-                  className="text-white hover:bg-white hover:text-black px-3 py-2 rounded-md text-sm font-medium"
-                >
-                  About
-                </Link>
-                <Link
                   to="/contact"
                   className="text-white hover:bg-white hover:text-black px-3 py-2 rounded-md text-sm font-medium"
                 >
@@ -108,10 +102,10 @@ function Nav() {
                 Blog
               </Link>
               <Link
-                to="/about"
-                className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                to="/contact"
+                className="hover:bg-gray-700 text-white block px-3 py-2 rounded-md text-base font-medium"
               >
-                About us
+                Contact
               </Link>
             </div>
           </div>

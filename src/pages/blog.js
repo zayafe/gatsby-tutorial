@@ -13,9 +13,6 @@ function Blog() {
             title
             description
             id
-            image {
-              url
-            }
           }
         }
       }
@@ -29,7 +26,7 @@ function Blog() {
         {
           data.allStrapiArticle.edges.map(item => {
             return (
-              <Card key={item.node.id} title={item.node.title} description={item.node.description} image={item.node.image.url}/>
+              <Card key={item.node.id} title={item.node.title} description={item.node.description} />
           )})
         }  
       </div>

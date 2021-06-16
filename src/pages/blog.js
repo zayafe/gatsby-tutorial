@@ -13,9 +13,6 @@ function Blog() {
             title
             description
             id
-            image {
-              url
-            }
           }
         }
       }

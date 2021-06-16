@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "gatsby"
 import { Transition } from "@headlessui/react";
-import logo from "../images/thisisalogo_white.png"
+import logo from "../../images/thisisalogo_white.png"
 
 function Nav() {
   const [isOpen, setIsOpen] = useState(false);
@@ -27,12 +27,17 @@ function Nav() {
                 >
                   Blog
                 </Link>
-
                 <Link
                   to="/about"
                   className="text-white hover:bg-white hover:text-black px-3 py-2 rounded-md text-sm font-medium"
                 >
-                  About us
+                  About
+                </Link>
+                <Link
+                  to="/contact"
+                  className="text-white hover:bg-white hover:text-black px-3 py-2 rounded-md text-sm font-medium"
+                >
+                  Contact
                 </Link>
               </div>
             </div>

@@ -16,13 +16,10 @@ module.exports = {
       resolve: "gatsby-source-strapi",
       options: {
         apiURL: process.env.API_URL || "http://localhost:1337",
-        collectionTypes: ["article", "category", "writer"],
-        singleTypes: [`homepage`, `global`],
+        collectionTypes: ["article", "category", "writer", "feature"],
         queryLimit: 1000,
       },
     },
-    "gatsby-plugin-image",
-    "gatsby-transformer-sharp",
-    "gatsby-plugin-sharp",
+    
   ],
 };

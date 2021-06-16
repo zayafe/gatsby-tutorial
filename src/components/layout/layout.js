@@ -2,6 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import Nav from "./nav";
 import Header from "./header";
+import Footer from "./footer";
 
 const Layout = ({ children, title, subtitle }) => {
   return (
@@ -9,6 +10,7 @@ const Layout = ({ children, title, subtitle }) => {
       <Nav />
       <Header title={title} subtitle={subtitle}/>
       <main>{children}</main>
+      <Footer />
     </>
   )
 };
